@@ -1,0 +1,41 @@
+* {
+    margin: 0;padding: 0;box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('Space.jpg');
+  }
+  html{
+    cursor: none;
+  }
+
+  .rocket {
+    width: 100px;
+    position: absolute;
+    inset: auto auto 2rem 50%;
+    transform: translateX(-50%);
+    transition: 5s ease-out;
+  }
+  
+  .rocket img {
+    width: 100%;
+  }
+  
+  .bullet {
+    width: 25px;
+    position: absolute;
+    inset: auto auto 15% 50%;
+    transform: translateX(-50%);
+    transition: 5s ease-out;
+    z-index: -1;
+  }
+  .nar img{
+    width: 40px;
+    position: relative;
+  }
+  .bullet img {
+    width: 100%;
+  }
+  cursor{
+    
+  }
